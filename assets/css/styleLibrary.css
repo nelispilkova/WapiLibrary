@@ -1,0 +1,367 @@
+@CHARSET "ISO-8859-1";
+.buttons a {
+	text-decoration:none;
+	color:#4d4d4d;
+}
+.wrrap{
+	width:1170px;
+	box-sizing:border-box;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	box-shadow:20px 20px 100px 20px #7A9985;
+	background-image:url("http://Localhost/WapiLibrary/assets/images/lib2.jpg");
+	
+}
+.wrrap-sec{
+	display:inline-block;
+	margin:0 auto;
+	padding:3em 1.5em;
+	box-sizing:border-box;
+	width:1150px;
+	
+	
+}
+.titleDiv{
+	display:inline-block;
+	width:100%;
+	
+	box-sizing:border-box;
+	
+	
+}
+.title{
+	display:inline-block;
+	float:left;
+	
+}
+
+
+
+.userloged{
+	padding:0.2em;
+	margin-top:1em;
+	width:200px;
+	border-radius:15px;
+	background-color:#4d4d4d;
+	box-sizing:border-box;
+	font-weight:bold;
+	font-size:1.5em;
+	color:#ffffff;
+	display:inline-block;
+	float:right;
+	text-align:center;
+	
+}
+
+#homeButtons{
+	padding:2em 18em;
+	box-sizing:border-box;
+	width:100%;
+	display:inline-block;
+	
+	
+}
+.buttons{
+	border:none;
+	display:inline-block;
+	float:left;
+	box-sizing:border-box;
+	margin:0.7em;
+	width:200px;
+	height:45px;
+	border-radius:30px;
+	background-color:#f9c78e;
+	color:#4d4d4d;
+	font-weight:bold;
+	font-size:1.5em;
+	box-shadow:15px 15px 80px 5px #4d4d4d;
+	
+	
+	
+}
+
+
+
+.logo{
+	width:200px;
+	border-radius:50%;
+
+}
+
+
+#logForm{
+	font-weight:bold;
+	font-size:1.5em;
+	border-radius:30px;
+	background-color:#4d4d4d;
+	padding:1em;
+	width:500px;
+	margin:4em auto;
+	box-sizing:border-box;
+	
+}
+#logForm h3{
+	margin:1em;
+	text-align:center;
+	font-size:1.5em;
+	color:#ffffff;
+}
+#logForm .addInput{
+	margin:0em 0em 2em 5em;
+	
+}
+
+.add{
+	font-weight:bold;
+	font-size:1.5em;
+	text-align:center;
+	border-radius:30px;
+	background-color:#4d4d4d;
+	padding:1em;
+	width:500px;
+	margin:0 auto;
+	box-sizing:border-box;
+	
+}
+
+
+
+
+
+
+.add h3{
+	margin:1em;
+	paddinng:1em;
+	color:#ffffff;
+}
+
+.addInput{
+	
+	box-sizing:border-box;
+	display:inline-block;
+	margin:0.5em;
+	width:300px;
+	height:35px;
+	font-size:0.6em;
+	border-radius:5px;
+	color:#4d4d4d;
+	
+	
+}
+textarea, select { 
+	font-weight:bold;
+	font-size:1em;
+}
+
+
+
+#uploadImg{
+	box-sizing:border-box;
+	display:inline-block;
+	margin:0.5em;
+	width:300px;
+	height:35px;
+	background-color:#ffffff;
+	border-radius:5px;
+}
+
+
+.submit{
+	box-sizing:border-box;
+	display:inline-block;
+	margin:0.5em;
+	
+}
+#log-log{
+	box-sizing:border-box;
+	display:inline-block;
+	margin:0.7em 6.2em;
+	width:150px;
+	height:35px;
+	border-radius:15px;
+	background-color:#f9c78e;
+	color:#4d4d4d;
+	
+	
+}
+
+#save{
+	box-sizing:border-box;
+	display:inline-block;
+	margin:0.7em;
+	width:150px;
+	height:35px;
+	border-radius:15px;
+	background-color:#f9c78e;
+	color:#4d4d4d;
+	
+}
+.logout{
+	width:80px;
+	border-radius:15px;
+	border:none;
+	background-color:#ffffff;
+	
+	
+}
+#result{
+	
+	border-radius:30px;
+	background-color:#4d4d4d;
+	padding:1em;
+	width:700px;;
+	margin:0 auto;
+	
+	
+}
+#result h2{
+	text-align:center;
+	font-weght:bold;
+	font-size:2em;
+	color:#ffffff;
+	margin:0.5em;
+}
+.onebook{
+	margin:1em 0em;
+	border-radius:30px;
+	padding:1em;
+	width:100%;
+	display:inline-block;
+	border:3px solid #f9c78e;
+	box-sizing:border-box;
+	
+	
+}
+.one-fifth{
+	box-sizing:border-box;
+	display:inline-block;
+	width:32%;
+	float:left;
+	display:inline-block;
+	padding:0.5em 1em;
+	
+	
+}
+.one-fifth img{
+	width:100px;
+}
+
+#result a{
+	text-decoration:none;
+	color:#ffffff;
+}
+.one-fifth h3{
+	font-size:1.2em;
+	
+}
+
+.one-fifth span{
+	font-size:1.2em;
+	
+}
+.logout a{
+	text-decoration:none;
+	color:#4d4d4d;
+}
+
+.errorr{
+	font-size:0.7em;
+	color:red;
+	text-align:center;
+	
+}
+
+.success{
+	font-size:0.7em;
+	color:#f9c78e;
+	
+}
+#infoBook{
+	color:#ffffff;
+	border-radius:30px;
+	background-color:#4d4d4d;
+	padding:2em;
+	width:800px;
+	margin:4em auto;
+	box-sizing:border-box;
+	
+	
+}
+#bookTitle{
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:2em;	
+}
+#from{
+	padding:0.5em;
+	text-align:center;
+	
+}
+
+#bookAuthor{
+	
+	text-align:center;
+	font-weight:bold;
+	font-size:1.3em;	
+	margin-bottom:2em;
+}
+#imgAndResume{
+	
+	pdding:0.5em;
+	display:inline-block;
+	box-sizing:border-box;
+	width:100%;
+	
+}
+#cover{
+	pdding:1em;
+	display:inline-block;
+	box-sizing:border-box;
+	width:60%;
+	float:left;
+}
+
+#cover img{
+	
+width:400px;
+	
+}
+
+
+
+#bookResume{
+	
+	padding:1em;	
+}
+
+#pubDate{
+	padding:0.5em;
+	font-weight:1em;
+}
+#bookIsbn{
+	padding:0.5em;
+	font-weight:1em;
+	
+}
+
+
+#problem {
+	font-weight:bold;
+	font-size:1.5em;
+	border-radius:30px;
+	background-color:#4d4d4d;
+	padding:1em;
+	width:500px;
+	margin:4em auto;
+	box-sizing:border-box;
+	color:#f9c78e;
+	text-align:center;
+	
+}
+
+
+
+
+
+
