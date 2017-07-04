@@ -28,7 +28,7 @@
 			<div class="userloged">
 				<h1> Hello <?php echo $user->username; ?></h1>
 				<div >
-					<button class="logout"> <a href="/LogoutController.php"> Log Out</a></button>
+				 <a href="/LogoutController.php"><button class="logout"> Log Out</button></a>
 				</div>
 				
 			</div>

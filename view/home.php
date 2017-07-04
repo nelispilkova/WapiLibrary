@@ -25,7 +25,7 @@
 			<div class="userloged">
 				<h1> Hello <?php echo $user->username; ?></h1>
 				<div >
-					<button class="logout"> <a href="/LogoutController.php"> Log Out</a></button>
+				 <a href="/LogoutController.php"> <button class="logout">Log Out</button></a>
 				</div>
 			</div>
 		</div>
@@ -36,7 +36,7 @@
 			</div>
 		
 			<div >
-				<button class = "buttons"><a href="/BooksController.php">Add New Book</a></button>
+				<a href="/BooksController.php"><button class = "buttons">Add New Book</button></a>
 			</div>
 			
 		</div>
